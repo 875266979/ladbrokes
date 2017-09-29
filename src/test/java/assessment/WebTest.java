@@ -14,7 +14,7 @@ public class WebTest {
     private Driver driver;
     private LoginPage loginPage;
 
-    /*@Before
+    @Before
     public void setUP() throws Exception {
         server = new TestServer(9988);
         server.start();
@@ -38,5 +38,5 @@ public class WebTest {
 
     private void getLoginPage() {
         driver.get(Constants.LOGIN_PAGE_URL);
-    }*/
+    }
 }
